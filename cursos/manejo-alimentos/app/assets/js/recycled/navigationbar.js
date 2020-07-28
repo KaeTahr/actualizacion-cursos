@@ -23,7 +23,7 @@ $(document).ready(function(){
         $("#sideNav a").each(function() {
             
             var _href = this.getAttribute("href"); 
-            if( typeof(_href) != 'undefined' && _href!="" && _href.search(".html")!=-1){
+            if( typeof(_href) != 'undefined' && _href!="" && (_href.search(".html")!=-1 || _href.search(".pdf")!=-1)){
                 $(this).prop("href", getPath()+_href);
             }
         });
