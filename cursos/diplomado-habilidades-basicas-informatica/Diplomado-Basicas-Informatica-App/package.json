@@ -23,6 +23,6 @@
         "time-grunt": "^1.2.1"
     },
     "dependencies": {
-        "node-sass": "^4.9.0"
+        "node-sass": "^9.0.0"
     }
 }
